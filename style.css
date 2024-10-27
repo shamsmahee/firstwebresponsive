@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .main {
   max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
+  font-family: "Montserrat", sans-serif;
 }
 /* header Start */
 .headhero {
@@ -20,31 +24,39 @@
   align-items: center;
 }
 .navlink h1 {
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 25px;
 }
 .navlink a {
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
   text-decoration: none;
+  color: #737373;
 }
 .connectus {
   margin-right: 50px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .connectus a {
   padding-right: 15px;
   text-decoration: none;
   color: #96bb7c;
+  font-weight: 600;
 }
 .connectbtn {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 20px;
+  padding: 15px 30px;
+  margin-left: 10px;
+  border-radius: 5px;
   background-color: #96bb7c;
   border-style: hidden;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.fa-arrow-right {
+  margin-left: 10px;
 }
 /* header End */
 /* Hero Section Start */
@@ -57,33 +69,39 @@
 }
 .intro h6 {
   margin-top: 200px;
-  font-size: 20px;
+  font-size: 15px;
+  color: #96bb7c;
 }
 .intro h1 {
   margin-top: 20px;
   font-size: 40px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .intro p {
-  margin-top: 10px;
-  font-size: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #737373;
 }
 .intro button {
-  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  padding: 10px 20px;
   border-radius: 3px;
+  font-weight: 600;
+  font-size: 13px;
 }
 .payb {
   background-color: #96bb7c;
   color: white;
-  margin-right: 5px;
+  margin-right: 3px;
   border: 2px solid #96bb7c;
-  box-shadow: 20px 5px 20px rgb(201, 199, 199);
 }
 .learnb {
   background-color: white;
   color: #96bb7c;
   margin-left: 5px;
-  border: 2px solid #96bb7c;
+  border: 1px solid #96bb7c;
 }
 .heroimg {
   margin-left: 30px;
@@ -99,22 +117,61 @@
   margin-top: 60px;
   margin-bottom: 80px;
 }
+.cartintro h4 {
+  margin-bottom: 20px;
+  color: #96bb7c;
+}
+.cartintro h1 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.cartintro p {
+  color: #737373;
+  font-weight: 600;
+}
 .cart {
   display: flex;
   justify-content: center;
 }
 .cartitem {
-  width: 200px;
-  height: 250px;
+  font-size: 14px;
+  margin: 5px 5px;
+  padding: 38px 40px;
+  width: 290px;
+  height: 220px;
   margin-right: 20px;
   box-shadow: 10px 10px 10px rgb(218, 213, 213);
 }
+.cartitem p {
+  font-size: 13px;
+  font-weight: 700;
+  color: #737373;
+}
 .unicart {
-  width: 200px;
-  height: 250px;
+  width: 290px;
+  height: 220px;
+  padding: 40px 40px;
   color: white;
   background-color: #96bb7c;
   margin-right: 20px;
+  font-size: 15px;
+}
+hr {
+  background-color: red;
+  width: 50px;
+  height: 2px;
+  margin: 10px 5px;
+  border-style: hidden;
+}
+.unicart p {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+.unicart hr {
+  background-color: #fff;
 }
 /* cart section end */
 /* hero section 2 start */
@@ -320,8 +377,10 @@
   margin-bottom: 20px;
   padding: 15px 75px;
   background-color: #96bb7c;
-  color: black;
-  font-size: 14px;
+  color: white;
+  font-size: 15px;
+  border-style: hidden;
+  border-radius: 5px;
 }
 .com {
   color: white;
@@ -392,7 +451,9 @@
   padding: 15px 75px;
   background-color: #96bb7c;
   color: white;
-  font-size: 14px;
+  border-style: hidden;
+  border-radius: 5px;
+  font-size: 15px;
 }
 .icom {
   color: white;
@@ -464,9 +525,13 @@
   margin-top: 10px;
 }
 /* teachers section end */
+/* emailbox section start */
 .subscribemain {
-  padding-top: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #fff2f3;
+}
+.subsitem {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -478,6 +543,63 @@
 }
 .subsitem h1 {
   font-size: 50px;
+  margin-bottom: 0px;
 }
 .subsitem P {
+  font-size: 14;
+  color: #737373;
+  margin-bottom: 40px;
+}
+.emailbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailsec {
+  padding: 15px 120px;
+  border: 2px solid #f9f9f9;
+}
+.emailbox button {
+  padding: 16px 30px;
+  border-style: hidden;
+  color: #fff;
+  background-color: #96bb7c;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* emailbox section end */
+.lastmainpart {
+  margin: 0px 180px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+.lastfooter {
+  padding: 25px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+.footertxt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #737373;
+  margin-left: 120px;
+}
+.footericon {
+  margin-right: 100px;
+}
+.fb {
+  padding-right: 20px;
+  color: #96bb7c;
+}
+.insta {
+  padding-right: 20px;
+  color: #96bb7c;
+}
+.twit {
+  color: #96bb7c;
 }
