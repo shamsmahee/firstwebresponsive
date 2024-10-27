@@ -206,7 +206,7 @@
 .hero2intro hr {
   margin: 0px;
   width: 100px;
-  height: 10px;
+  height: 7px;
   background-color: red;
   border-style: hidden;
 }
@@ -218,23 +218,34 @@
 .herosec3 {
   display: flex;
   justify-content: space-between;
-  margin: 100px 50px 60px 80px;
-  margin-right: 180px;
-  margin-left: 180px;
+  margin: 100px 180px 40px 180px;
+}
+.sec3intro {
+  margin-right: 50px;
 }
 .sec3intro h1 {
-  font-size: 40px;
-  margin-top: 80px;
+  font-size: 35px;
+  margin-top: 50px;
   margin-bottom: 40px;
 }
 .sec3intro p {
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #737373;
   margin-bottom: 50px;
 }
 .sec3intro a {
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 600;
   text-decoration: none;
   color: #96bb7c;
+}
+.sec3intro hr {
+  margin: 0px;
+  width: 100px;
+  height: 7px;
+  background-color: red;
+  border-style: hidden;
 }
 /* hero section 3 end */
 /* purchase cart section start */
