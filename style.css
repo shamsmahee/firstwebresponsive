@@ -773,3 +773,19 @@ color: #96bb7c;
   color: #96bb7c;
 }
 /* footer section end */
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#96bb7c);
+  border-radius: 10px;
+}
+@media screen and (max-width:1280px){
+  ::-webkit-scrollbar{
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#96bb7c);
+    border-radius: 8px;
+  }
+}
