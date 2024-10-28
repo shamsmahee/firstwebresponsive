@@ -591,6 +591,14 @@
   margin: 200px 180px;
   margin-top: 400px;
 }
+.teachersintro h4{
+font-size: 15px;
+color: #96bb7c;
+}
+.teachersintro p{
+  font-weight: 600;
+  color: #737373;
+}
 .teachersmain {
   display: flex;
   justify-content: space-around;
@@ -599,28 +607,28 @@
 .teacher1 {
   height: 380px;
   width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   /* border: 2px solid red; */
 }
 .teacher1 img {
-  margin-left: 110px;
+  /* margin-left: 110px; */
   border-radius: 100px;
 }
 .teacher1 p {
   font-size: 14px;
   color: #737373;
-  margin-left: 60px;
 }
 .teacher1 span {
   color: #f3cd03;
-  margin-left: 125px;
 }
 .teacher1 h3 {
-  margin-left: 98px;
   font-size: 24px;
   margin-bottom: 0px;
 }
 .teacher1 h5 {
-  margin-left: 135px;
   font-size: 18px;
   margin-top: 10px;
 }
