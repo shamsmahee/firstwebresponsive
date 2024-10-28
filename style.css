@@ -565,6 +565,7 @@
   padding: 5px 5px;
   border-radius: 50px;
   margin-top: 10px;
+  margin-right: 10px;
 }
 .icom2 {
   color: white;
@@ -572,6 +573,10 @@
   padding: 5px 5px;
   border-radius: 50px;
   margin-top: 5px;
+  margin-right: 10px;
+}
+.purchaseplancart span{
+  color: #fff;
 }
 .hotcart button {
   height: 100px;
@@ -677,13 +682,14 @@ color: #96bb7c;
 }
 /* emailbox section end */
 .lastmainpart {
-  margin: 0px 180px;
-  margin-top: 100px;
+  margin: 100px 180px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
+
 }
+
 .lastfooter {
   padding: 25px 40px;
   display: flex;
@@ -691,8 +697,28 @@ color: #96bb7c;
   justify-content: space-between;
   background-color: #fafafa;
 }
+.unipart{
+  margin-right: 50px;
+}
+.unipart p{
+  color: #8c8b8b;
+  font-weight: 600;
+}
+.information{
+  margin-left: 20px;
+}
+.information p{
+  color: #737373;
+  font-size: 15px;
+  font-weight: 600;
+}
+.contact{
+  color: #96bb7c;
+  padding: 0px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
 .footertxt {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #737373;
   margin-left: 120px;
