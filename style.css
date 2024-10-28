@@ -400,6 +400,14 @@
 .planmain {
   margin: 80px 180px;
 }
+.planintro h3{
+  font-size: 15px;
+  color: #96bb7c;
+}
+.planintro p{
+  color: #737373;
+  font-weight: 600;
+}
 .plancartmain {
   display: flex;
   justify-content: space-around;
@@ -411,7 +419,17 @@
   justify-content: start;
   position: relative;
 }
+.purchaseplancart{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 .plancart {
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-around;
+  align-items: center;
   width: 320px;
   height: 890px;
   background-color: #fff;
@@ -419,20 +437,20 @@
 }
 .plancart img {
   padding-top: 50px;
-  padding-left: 100px;
-  margin-left: 10px;
+  /* padding-left: 100px;
+  margin-left: 10px; */
   margin-bottom: 30px;
 }
 .plancart h2 {
   font-size: 24px;
   color: black;
-  margin-top: 5px;
+  /* margin-top: 5px;
   margin-left: 126px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
 }
 .plancart h6 {
   font-size: 14px;
-  margin-left: 103px;
+  /* margin-left: 103px; */
   color: black;
 }
 .texdeco3 {
@@ -441,24 +459,21 @@
 .plancart h1 {
   font-size: 40px;
   color: #96bb7c;
-  margin-left: 125px;
+  margin-bottom: 0px;
+}
+.plancart h5{
+ margin-top: 5px;
+ color: #8EC2F2;
 }
 .plancart p {
   font-size: 14px;
-  color: black;
-  margin-left: 90px;
-  margin-bottom: 0px;
-}
-.texdeco4 {
-  font-size: 14px;
-  color: black;
-  padding-left: 80px;
+  color: #737373;
+  margin: 0px;
 }
 .plancart button {
   margin-left: 45px;
   margin-right: 40px;
   margin-top: 35px;
-  margin-bottom: 20px;
   padding: 15px 75px;
   background-color: #96bb7c;
   color: white;
@@ -466,12 +481,16 @@
   border-style: hidden;
   border-radius: 5px;
 }
+.benefits{
+  margin: 0px;
+  padding: 50px 0px;
+}
 .com {
   color: white;
   background-color: #2dc071;
   padding: 5px 5px;
   border-radius: 50px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -480,7 +499,7 @@
   background-color: #bdbdbd;
   padding: 5px 5px;
   border-radius: 50px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -492,34 +511,35 @@
 }
 .purchaseplancart img {
   padding-top: 50px;
-  padding-left: 100px;
-  margin-left: 10px;
   margin-bottom: 30px;
 }
 .purchaseplancart h2 {
   font-size: 24px;
   color: white;
   margin-top: 5px;
-  margin-left: 126px;
-  margin-bottom: 30px;
+
+  /* margin-bottom: 30px; */
 }
 .purchaseplancart h6 {
   font-size: 14px;
-  margin-left: 103px;
   color: white;
 }
-.texdeco {
+.texdeco4{
+  margin-top: 0px;
   padding-left: 16px;
 }
 .purchaseplancart h1 {
+  margin-bottom: 0px;
   font-size: 40px;
   color: #96bb7c;
-  margin-left: 125px;
+}
+.purchaseplancart h5{
+  margin-top: 5px;
+  color: #8EC2F2;
 }
 .purchaseplancart p {
   font-size: 14px;
   color: white;
-  margin-left: 90px;
   margin-bottom: 0px;
 }
 .texdeco2 {
@@ -544,9 +564,7 @@
   background-color: #2dc071;
   padding: 5px 5px;
   border-radius: 50px;
-  margin-top: 5px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-top: 10px;
 }
 .icom2 {
   color: white;
@@ -554,14 +572,12 @@
   padding: 5px 5px;
   border-radius: 50px;
   margin-top: 5px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 .hotcart button {
   height: 100px;
   width: 100px;
-  border: 2px solid orange;
-  background-color: orange;
+  border-style: hidden;
+  background-color: #E77C40;
   border-radius: 200px;
   position: absolute;
   margin-left: -80px;
