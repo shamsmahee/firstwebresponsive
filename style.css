@@ -27,6 +27,9 @@
   margin-right: 40px;
   font-size: 25px;
 }
+.bars{
+  display: none;
+}
 .navlink a {
   padding-left: 10px;
   font-size: 15px;
@@ -106,6 +109,12 @@
 .heroimg {
   margin-left: 30px;
 }
+@media screen and (max-width:1280px)
+{
+  .heroimg{
+    width: 50%;
+  }
+}
 /* Hero Section End */
 /* Cart Section Here */
 .cartsec {
@@ -175,6 +184,14 @@
   height: 2px;
   margin: 10px 5px;
   border-style: hidden;
+}
+@media screen and (max-width:1280px){
+  .cartsec{
+    width: 90%;
+  }
+  .cartitem {
+    padding: 35px 30px;
+  }
 }
 /* cart section end */
 /* hero section 2 start */
@@ -326,9 +343,7 @@
   position: absolute;
   margin: -50px 40px;
 }
-.purchaseicone img {
-  padding-left: 10px;
-}
+
 .purchaseparent {
   display: flex;
   justify-content: space-between;
@@ -394,6 +409,17 @@
   color: #f3cd03;
   margin: 2px 3px ;
 
+}
+@media screen and (max-width:1280px){
+  .purchaseparent{
+    width: auto;
+  }
+  .parcart{
+    width: 220px;
+    height: 550px;
+    margin-right: 20px;
+    padding-left: 10px;
+  }
 }
 /* purchase cart section end */
 /* plan cart section start */
@@ -590,6 +616,14 @@
   font-size: 24px;
   color: white;
 }
+@media screen and (max-width:1280px){
+ .plancart{
+  margin-left: 10px;
+ }
+ .purchaseplancart{
+  margin-left: 10px;
+ }
+}
 /* purchase plan cart section end */
 /* Teacher Section Start */
 .teachersecmain {
@@ -681,6 +715,7 @@ color: #96bb7c;
   border-bottom-right-radius: 5px;
 }
 /* emailbox section end */
+/* footer section start */
 .lastmainpart {
   margin: 100px 180px;
   display: flex;
@@ -691,7 +726,7 @@ color: #96bb7c;
 }
 
 .lastfooter {
-  padding: 25px 40px;
+  padding: 10px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -737,3 +772,4 @@ color: #96bb7c;
 .twit {
   color: #96bb7c;
 }
+/* footer section end */
