@@ -250,10 +250,17 @@
 /* hero section 3 end */
 /* purchase cart section start */
 .Coursesection {
-  margin: 80px 180px 80px 180px;
+  margin: 150px 180px;
 }
 .Coursesintro p {
   margin-bottom: 100px;
+  font-weight: 400;
+  color: #737373;
+}
+.Coursesintro h4 {
+  color: #96bb7c;
+  font-weight: 700;
+  font-size: 15px;
 }
 .parcart {
   position: relative;
@@ -278,7 +285,7 @@
   height: 280px;
   background-repeat: no-repeat;
 }
-.salepoo1 button {
+.salepop1 button {
   margin: 10px 10px;
   padding: 5px 10px;
   color: white;
@@ -330,13 +337,63 @@
   width: 240px;
   height: 600px;
 }
+.purchaseintro h4 {
+  color: #96bb7c;
+  font-size: 15px;
+  margin right: 0px;
+}
+.purchaseintro h3{
+  font-size: 18px;
+}
+.purchaseintro p{
+  color: #737373;
+  font-size: 13px;
+  font-weight: 700;
+}
+.download{
+  color: #737373;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.font1{
+  margin-right: 10px;
+  font-weight: 700;
+  color: #737373;
+  font-size: 14px;
+}
+.font2{
+  font-weight: 700;
+  color: #f3cd03;
+  font-size: 14px;
+}
 .purchaseintro button {
   padding: 10px 30px;
   background-color: white;
   color: #96bb7c;
   margin: 30px 20px;
   border: 2px solid #96bb7c;
-  border-radius: 10px;
+  border-radius: 30px;
+}
+.name{
+  display: flex;
+  justify-content: space-around;
+}
+.purchasebutton {
+  margin-right: 5px;
+  font-size: 15px;
+  width: 50px;  
+  height: auto;
+  color: #fff;
+  font-weight: 400;
+  background-color: #2D4059;
+  border: 2px solid #2D4059;
+  border-radius: 15px;
+}
+.fa-star{
+  color: #f3cd03;
+  margin: 2px 3px ;
+
 }
 /* purchase cart section end */
 /* plan cart section start */
